@@ -1,8 +1,8 @@
 package com.example.busybee.ui.home;
 
-/*
 
-NOT REALLY USING THIS CLASS AT THE MOMENT
+
+//NOT REALLY USING THIS CLASS AT THE MOMENT
 
 
 
@@ -64,7 +64,7 @@ public class CustomAdapter extends ArrayAdapter{
         return convertView;
     }
 //*/
- /*
+
 
     // return view displaying data at position
     @Override
@@ -87,4 +87,3 @@ public class CustomAdapter extends ArrayAdapter{
     }
 
 }
- */

@@ -75,7 +75,9 @@ public class HomeFragment extends Fragment implements AdapterView.OnItemClickLis
         // find spinner widget
         Spinner spinnerTasks = (Spinner) binding.tasksSpinner;   // equivalent to findViewById(R.id.timer_tasks_spinner) ?
         // attach listener to spinner
-        spinnerTasks.setOnItemClickListener(this);
+
+        /* DAY LAST
+        spinnerTasks.setOnItemSelectedListener(());
 
         // array adapter
         ArrayAdapter<CharSequence>adapter=ArrayAdapter.createFromResource(getContext(), R.array.tasks_for_spinner, android.R.layout.simple_spinner_item);
@@ -95,7 +97,9 @@ public class HomeFragment extends Fragment implements AdapterView.OnItemClickLis
 
         //CustomAdapter customAdapter = new CustomAdapter(getActivity(), arrayList);
         //spinnerTasks.setAdapter(customAdapter);
-        //
+        // MAY 6
+        */
+
 
         // WIDGETS: button to start timer
         buttonTime = (Button) binding.buttonTime;
